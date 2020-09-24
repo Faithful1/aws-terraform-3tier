@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 terraform {
-# put a pin on the harshicorp aws plugin version
+# put a pin on the harshicorp aws plugin versions
   required_providers {
     aws = {
       source  = "hashicorp/aws"
